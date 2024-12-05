@@ -61,15 +61,15 @@ DATABASE_URL="mysql://username:password@localhost:3306/todoapp"
 
 - By default, the server will run on http://localhost:5000. You can use tools like Postman or Insomnia to test the API endpoints (e.g., GET /tasks, POST /tasks, etc.).
 
-File Structure
+## File Structure
 - src/index.ts: The main entry point for the Express app.
 - prisma/schema.prisma: The Prisma schema for the Task model and database connection.
 
-Troubleshooting
+## Troubleshooting
 - CORS Issues: If you encounter any issues related to CORS (Cross-Origin Resource Sharing), ensure that the back-end API has CORS enabled and is properly configured to allow requests from your front-end URL.
 - Environment Variables: Ensure that the .env file is correctly configured with the correct DATABASE_URL.
 
-Contributing
+## Contributing
 
 Feel free to open issues or submit pull requests for improvements and bug fixes.
 
